@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* always be at the top no matter what, no flopping */
+  z-index: 100; 
+}
+
+.header__logo {
+  /* keeps the aspect ratio */
+  object-fit: contain;
+  height: 40px;
+}
+
+.header__icon {
+    padding: 20px;
+}
